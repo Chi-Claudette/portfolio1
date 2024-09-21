@@ -155,70 +155,147 @@
     <!-- work section end -->
 
     <!-- portfolio section start -->
+
+    <!-- portfolio-modal start -->
+    <div class="modal" id="modal1">
+      <div class="modal-content">
+        <span class="close" id="closeModalBtn">&times;</span>
+        <h2 class="title">Repository Project Management</h2>
+        <p>
+          Stores and manages the project reports of final year students in the
+          faculty of Engineering and Technology, University of Buea. The
+          technologies and frameworks used are; angular, springboot, firebase
+          and mysql.
+        </p>
+      </div>
+    </div>
+
+    <div class="modal" id="modal2">
+      <div class="modal-content">
+        <span class="close" id="closeModalBtn">&times;</span>
+        <h2 class="title">
+          Diabetes prediction using Machine Learning Techniques
+        </h2>
+        <p>
+          Build a machine learning model that accurately predicts the early risk
+          of developing diabetes based on various diabetes risk factors. And
+          provides a user-friendly inteterface where individuals can input
+          relevant data to check their diabetes risk status and take actions as
+          soon as posible.
+        </p>
+      </div>
+    </div>
+
+    <div class="modal" id="modal3">
+      <div class="modal-content">
+        <span class="close" id="closeModalBtn">&times;</span>
+        <h2 class="title">Note-taken Application</h2>
+        <p>
+          Creates and manages notes. The technologies and frameworks used are;
+          angular, springboot and mysql.
+        </p>
+      </div>
+    </div>
+
+    <div class="modal" id="modal4">
+      <div class="modal-content">
+        <span class="close" id="closeModalBtn">&times;</span>
+        <h2 class="title">Student Mangement System</h2>
+        <p>
+          Performs CRUD operations on students. Vivamus eleifend convallis ante,
+          non pharetra libero molestie laoreet. Donec id imperdiet lacus.
+        </p>
+      </div>
+    </div>
+
+    <div class="modal" id="modal5">
+      <div class="modal-content">
+        <span class="close" id="closeModalBtn">&times;</span>
+        <h2 class="title">Password generating App</h2>
+        <p>
+          Generates unique passwords. Vivamus eleifend convallis ante, non
+          pharetra libero molestie laoreet. Donec id imperdiet lacus.
+        </p>
+      </div>
+    </div>
+
+    <div class="modal" id="modal6">
+      <div class="modal-content">
+        <span class="close" id="closeModalBtn">&times;</span>
+        <h2 class="title">Portfolio Website</h2>
+        <p>
+          My portfolio website that cintains everything about me, my skills,
+          projects, education, acheivements, hobbies ,and so on
+        </p>
+      </div>
+    </div>
+    <!-- portfolio-modal-end -->
+
     <section class="portfolio">
       <h2 class="centered-text">Portfolio</h2>
       <p class="centered-text">
-        There are many variations of passages of Lorem Ipsum available,
-        <br />but the majority have suffered alteration.
+        This section lists out all the projects I've worked on.
+        <br />Feel free to go throuh my works.
       </p>
       <div class="portfolio-cards">
         <div class="port-card">
           <img class="portfolio-image" src="images/4.png" alt="Project Image" />
-          <span class="ui">UI-UX DESIGN</span>
-          <h4>Product Admin Dashboard</h4>
+          <span class="ui">FRONT-END/BACK-END</span>
+          <h4>Repository Project Management</h4>
           <p>
-            Vivamus eleifend convallis ante, non pharetra libero molestie
-            laoreet. Donec id imperdiet lacus.
+            Stores and manages the project reports of final year students in the
+            faculty of Engineering and Technology, University of Buea.
           </p>
-          <button class="port-btn">
+          <button class="open-modal port-btn" data-modal="modal1">
             View Details <img class="port-icon" src="images/j.png" alt="" />
           </button>
         </div>
         <div class="port-card">
           <img class="portfolio-image" src="images/a.png" alt="Project Image" />
-          <span class="ui">UI-UX DESIGN</span>
-          <h4>Product Admin Dashboard</h4>
+          <span class="ui">MACHINE LEARNING</span>
+          <h4>Diabetes prediction using Machine Learning Techniques</h4>
           <p>
-            Vivamus eleifend convallis ante, non pharetra libero molestie
-            laoreet. Donec id imperdiet lacus.
+            Build a machine learning model that accurately predicts the risk of
+            developing diabetes based on diabetes risk factors.
           </p>
-          <button class="port-btn">
+          <button class="open-modal port-btn" data-modal="modal2">
             View Details <img class="port-icon" src="images/j.png" alt="" />
           </button>
         </div>
         <div class="port-card">
           <img class="portfolio-image" src="images/9.png" alt="Project Image" />
-          <span class="ui">UI-UX DESIGN</span>
-          <h4>Product Admin Dashboard</h4>
+          <span class="ui">FRONT-END/BACK-END</span>
+          <h4>Note-taken Application</h4>
           <p>
-            Vivamus eleifend convallis ante, non pharetra libero molestie
-            laoreet. Donec id imperdiet lacus.
+            Creates and manages notes. Vivamus eleifend convallis ante, non
+            pharetra libero molestie laoreet. Donec id imperdiet lacus. Lorem
+            Ipsum
           </p>
-          <button class="port-btn">
+          <button class="open-modal port-btn" data-modal="modal3">
             View Details <img class="port-icon" src="images/j.png" alt="" />
           </button>
         </div>
         <div class="port-card">
           <img class="portfolio-image" src="images/6.png" alt="Project Image" />
-          <span class="ui">UI-UX DESIGN</span>
-          <h4>Product Admin Dashboard</h4>
+          <span class="ui">FRONT-END/BACK-END</span>
+          <h4>Student Management</h4>
           <p>
             Vivamus eleifend convallis ante, non pharetra libero molestie
             laoreet. Donec id imperdiet lacus.
           </p>
-          <button class="port-btn">
+          <button class="open-modal port-btn" data-modal="modal4">
             View Details <img class="port-icon" src="images/j.png" alt="" />
           </button>
         </div>
         <div class="port-card">
           <img class="portfolio-image" src="images/1.png" alt="Project Image" />
-          <span class="ui">UI-UX DESIGN</span>
-          <h4>Product Admin Dashboard</h4>
+          <span class="ui">FRONT-END</span>
+          <h4>Password Generating App</h4>
           <p>
             Vivamus eleifend convallis ante, non pharetra libero molestie
             laoreet. Donec id imperdiet lacus.
           </p>
-          <button class="port-btn">
+          <button class="open-modal port-btn" data-modal="modal5">
             View Details <img class="port-icon" src="images/j.png" alt="" />
           </button>
         </div>
@@ -228,13 +305,13 @@
             src="images/6.png"
             alt="Project Image"
           />
-          <span class="ui">UI-UX DESIGN</span>
-          <h4>Product Admin Dashboard</h4>
+          <span class="ui">FRONT-END/BACKEND-END</span>
+          <h4>Porfolio Website</h4>
           <p>
             Vivamus eleifend convallis ante, non pharetra libero molestie
             laoreet. Donec id imperdiet lacus.
           </p>
-          <button class="port-btn">
+          <button class="open-modal port-btn" data-modal="modal6">
             View Details <img class="port-icon" src="images/j.png" alt="" />
           </button>
         </div>
@@ -390,48 +467,88 @@
     <!-- testimonial section end -->
 
     <!-- contact section start -->
-    <section class="contact-section">
+    <section class="main-contact">
       <div class="contact-card">
-        <div class="contact-left">
-          <h3>Let’s discuss your Project</h3>
+        <!-- left side -->
+        <div class="my-contact">
+          <h2>Let’s discuss your Project</h2>
+          <p class="contact-p">
+            There are many variations of passages of Lorem Ipsu available. but
+            the majority have suffered alte.
+          </p>
+          <br />
+          <div class="contact-icon-container">
+            <div class="contact-icon">
+              <img class="icon-box" src="images/m.png" alt="icon" />
+            </div>
+            <div>
+              <span>Address:</span>
+              <p>New Mexico 31134</p>
+            </div>
+          </div>
+
+          <div class="contact-icon-container">
+            <div class="contact-icon">
+              <img class="icon-box" src="images/m.png" alt="icon" />
+            </div>
+            <div>
+              <span>My Email:</span>
+              <p>chiclaudette2000@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-icon-container">
+            <div class="contact-icon">
+              <img class="icon-box" src="images/m.png" alt="icon" />
+            </div>
+            <div>
+              <span>Call me now:</span>
+              <p>Molyko, Buea 673407364</p>
+            </div>
+          </div>
+          <img class="social-media" src="images/l.png" alt="" />
+        </div>
+
+        <!-- riht-side -->
+        <div class="your-contact">
           <p>
             There are many variations of passages of Lorem Ipsu available. but
             the majority have suffered alte.
           </p>
-
-          <div class="contact-info">
-            <div>
-              <img class="icon-box" src="images/m.png" alt="icon" />
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Name*</label>
+              <input type="text" id="name" name="name" required />
             </div>
-            <span class="contact-text">+123 456 7890</span>
-          </div>
-
-          <div class="contact-info">
-            <div>
-              <img class="icon-box" src="images/m.png" alt="icon" />
+            <div class="form-group">
+              <label for="email">Email*</label>
+              <input type="email" id="email" name="email" required />
             </div>
-            <span class="contact-text">contact@example.com</span>
-          </div>
-
-          <img class="social-media" src="images/l.png" alt="" />
-        </div>
-
-        <div class="contact-right">
-          <h3>Send a Message</h3>
-          <div class="input-group">
-            <label for="name">Name*</label>
-            <input type="text" id="name" />
-          </div>
-          <div class="input-group">
-            <label for="email">Email*</label>
-            <input type="email" id="email" />
-          </div>
-
-          <div class="input-group">
-            <label for="message">Message*</label>
-            <textarea id="message"></textarea>
-          </div>
-          <button class="button">Submit</button>
+            <div class="form-group">
+              <label for="location">Location*</label>
+              <input type="text" id="location" name="location" required />
+            </div>
+            <div class="form-group inline-group">
+              <div>
+                <label for="budget">Budget*</label>
+                <input type="number" id="budget" name="budget" required />
+              </div>
+              <div>
+                <label for="subject">Subject*</label>
+                <input type="text" id="subject" name="subject" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Message*</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="button">Submit</button>
+          </form>
         </div>
       </div>
     </section>
@@ -464,5 +581,6 @@
     </footer>
 
     <!-- footer section end -->
+    <script src="portfolio.js"></script>
   </body>
 </html>
